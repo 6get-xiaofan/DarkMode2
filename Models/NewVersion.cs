@@ -220,6 +220,7 @@ namespace DarkMode_2.Models
                 return LanguageHandler.GetLocalizedString("Update_Tip3");
             }
             Version newVersion =new Version(await this.UpdateJsonInterpreter(res, IUpdate.type.TagName, _nowChannel));
+            Console.WriteLine(VersionControl.Version() + "." + VersionControl.InternalVersion());
             Version oldVersion = new Version(VersionControl.Version()+"."+VersionControl.InternalVersion());
             return this.UpdateVersionCompared(oldVersion, newVersion);
         }

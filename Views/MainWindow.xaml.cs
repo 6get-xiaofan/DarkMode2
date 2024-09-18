@@ -55,6 +55,7 @@ public partial class MainWindow : INavigationWindow
     {
         ViewModel = viewModel;
         DataContext = this;
+        _queueService = new QueueService();
         _taskBarService = taskBarService;
         _testWindowService = testWindowService;
         _themeService = themeServices;

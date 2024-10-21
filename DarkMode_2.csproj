@@ -417,7 +417,7 @@
       <Version>2.1.1</Version>
     </PackageReference>
     <PackageReference Include="WPF-UI">
-      <Version>2.1.0</Version>
+      <Version>3.0.5</Version>
     </PackageReference>
     <PackageReference Include="WPFLocalizeExtension">
       <Version>3.10.0</Version>

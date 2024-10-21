@@ -12,8 +12,6 @@
 
 简体中文 | [English](./README_EN.md)
 
-**该项目已于 2024/01/17 起作者停止维护，恢复时间待定** 
-
 DarkMode2 是一个开源软件，用于自动切换 Windows 10/11 系统的颜色模式。它提供了多项主要功能，包括定时切换、日出日落切换、感光切换、以及基于系统自带壁纸和 Wallpaper Engine 壁纸的切换功能。该软件的目标是解决 Windows 操作系统不支持自动切换颜色模式的问题。此外，它还提供了众多额外的功能。晚上自动切换到深色模式有助于减少眼睛疲劳，防止过多的光线进入眼睛，本软件虽然不能完全解决眼睛疲劳问题，但可以缓解在夜间使用浅色模式带来的眼睛疲劳问题。
 
 ---
@@ -60,7 +58,7 @@ DarkMode2 是一个开源软件，用于自动切换 Windows 10/11 系统的颜�
 
 2. 经常弹出UAC弹窗怎么办？
    
-   如果你在开机时遇到UAC弹窗，说明是你开启了自动更新日出日落时间，因为软件在启动时就会自动更新一次日出日落时间，无法避免调用管理员权限；或者是软件在执行切换时修改系统注册表项时触发的UAC弹窗。如果想一劳永逸不在让UAC弹窗显示，你可以右键`DarkMode 2.exe`->选择`属性`->选择`兼容性`->选择`以管理员身份运行此程序`。即可避免此问题
+   如果你在开机时遇到 UAC 弹窗，说明是你开启了自动更新日出日落时间，因为软件在启动时就会自动更新一次日出日落时间，无法避免调用管理员权限；或者是软件在执行切换时修改系统注册表项时触发的UAC弹窗。如果想一劳永逸不在让UAC弹窗显示，你可以禁用 UAC 即可避免此问题。
 
 3. 双击打开程序没有反应怎么办？
 
@@ -69,7 +67,7 @@ DarkMode2 是一个开源软件，用于自动切换 Windows 10/11 系统的颜�
 
 ## 🧷开源协议
 
-本开源项目遵循国际 MIT 开源许可证，具体内容请详细阅读 [LICENSE](https://github.com/Melon-Studio/DarkMode2/blob/master/LICENSE.txt) 文件。你可以在个人或商业项目中使用 DarkMode2 的全部代码，但是你必须在你的引用项目中包含MIT开源许可证的副本。
+本开源项目遵循国际 GPLv3 开源许可证，具体内容请详细阅读 [LICENSE](https://github.com/Melon-Studio/DarkMode2/blob/master/LICENSE.txt) 文件。你可以在个人或商业项目中使用 DarkMode2 的全部代码，但是你必须在你的引用项目中包含MIT开源许可证的副本。
 
 本项目使用的第三方开源库：
 
@@ -80,7 +78,7 @@ DarkMode2 是一个开源软件，用于自动切换 Windows 10/11 系统的颜�
 | Log4net     | Apache          | Copyright © 2022 Apache Licensed under the Apache-2.0 License. | Apache-2.0 |
 | ...         | ...             | ...                                                          | ...        |
 
-更多依赖请[点击此处](https://github.com/Melon-Studio/DarkMode2/network/dependencies)查看。
+更多第三方开源库请[点击此处](https://github.com/Melon-Studio/DarkMode2/network/dependencies)查看。
 
 ---
 

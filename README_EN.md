@@ -68,7 +68,7 @@ If you encounter UAC prompts when starting up, it means you have enabled automat
 
 ## 🧷Open Source License
 
-This open-source project follows the international MIT open-source license. Please read the LICENSE file for details. You can use all the code of DarkMode2 in personal or commercial projects, but you must include a copy of the MIT open-source license in your referenced project.
+This open-source project follows the international GPLv3 open-source license. Please read the LICENSE file for details. You can use all the code of DarkMode2 in personal or commercial projects, but you must include a copy of the MIT open-source license in your referenced project.
 
 This project uses third-party open-source libraries:
 			
